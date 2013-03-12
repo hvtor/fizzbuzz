@@ -5,9 +5,9 @@ class PiglatinConverter
 	  	end
 		a = a.downcase
 		n = (a).index(/[aeiou]/)
-		if ((a.split).match(/[a-z]+/))? == false)
-			puts "You suck at following instructions. Bye!!!"
-		end
+		# if ((a.split).match(/[a-z]+/))? = false)
+		# 	puts "You suck at following instructions. Bye!!!"
+		# end
 		if n == 0
 			output = a + "way"
 		else
